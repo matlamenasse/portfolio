@@ -2,10 +2,10 @@
   <header>
     <div class="top_bar">
       <ul class="nav-list">
-        <li class="nav-item"><a href="/" exact>Home</a></li>
-        <li class="nav-item"><a href="/Longboard">Bio-composite longboard</a></li>
-        <li class="nav-item"><a href="/Low-Tech press" exact>Low-tech plastic injection press</a></li>
-        <li class="nav-item"><a href="/The InHome Garden" exact>The InHome Garden</a></li>
+        <li class="nav-item"><router-link to="/">Home</router-link></li>
+        <li class="nav-item"><router-link to="/Longboard">Bio-composite longboard</router-link></li>
+        <li class="nav-item"><router-link to="/InjectionPress">Low-tech plastic injection press</router-link></li>
+        <li class="nav-item"><router-link to="/InHomeGarden">The InHome Garden</router-link></li>
       </ul>
     </div>
   </header>
@@ -33,7 +33,7 @@
 }
 
 .nav-item {
-  background-color: rgb(28, 121, 28);
+  background-color: rgb(40, 185, 40);
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -45,7 +45,7 @@
   margin-left:15px;
 }
 
-.nav-item a {
+.nav-item router-link {
   text-decoration: none;
   color: white;
 }

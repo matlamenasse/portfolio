@@ -1,20 +1,17 @@
 <template>
   <div id="app">
     <Header />
-    <AtHome />
     <router-view />
   </div>
 </template>
 
 <script>
 import Header from './components/AppHeader.vue'
-import AtHome from './components/AtHome.vue'
 
 
 export default {
   components: {
     Header,
-    AtHome,
   }
 }
 </script>
